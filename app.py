@@ -2,10 +2,10 @@
 File: app.py
 Team Name: AirAudit
 Team Members:
-- Menaka Ananda (AndrewID: [ID 3])
+- Menaka Ananda (AndrewID: [ID 1])
 - Chao Huang (AndrewID: chaoh)
-- Rong Guo (AndrewID: [ID 4])
-- Tracy Yang (AndrewID: [ID 2])
+- Rong Guo (AndrewID: [ID 3])
+- Tracy Yang (AndrewID: [ID 4])
 
 Description: 
 This is the main graphical user interface (GUI) module for our Flight Search project. 
@@ -21,6 +21,7 @@ import pandas as pd
 import streamlit as st
 import flight_data
 
+# Set up the basic configuration of the web page
 st.set_page_config(page_title="Flight Search", page_icon="✈️", layout="wide")
 
 # columns we want to show in the table
@@ -35,6 +36,10 @@ SHOW_COLS = [
 
 # convert the duration of the flight to hours and minutes
 def format_duration(minutes_col):
+    """
+    Helper function to convert raw integer minutes into a human-readable 
+    hours and minutes format (e.g., 330 -> "5h 30m").
+    """
     results = []
     for val in minutes_col:
         if pd.isna(val):
@@ -48,6 +53,10 @@ def format_duration(minutes_col):
 
 # Build filters for the flight dataframe
 def build_filters(max_stops, max_price, dur_hours, dur_minutes, no_overnight):
+    """
+    Collects the UI filter inputs from the sidebar and packages them 
+    into a dictionary to be passed to the backend flight_data module.
+    """
     filters = {}
     if max_stops is not None:
         filters["max_stops"] = int(max_stops)
@@ -103,7 +112,7 @@ def main():
 
         search_btn = st.button("Search", type="primary", use_container_width=True)
 
-    # run search 
+    # Convert dates to string format required by the backend API
     start_str = pd.Timestamp(start_date).strftime("%Y-%m-%d")
     end_str = pd.Timestamp(end_date).strftime("%Y-%m-%d")
 

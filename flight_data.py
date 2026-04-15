@@ -1,5 +1,21 @@
-# flight_data.py
-# get flight data from serpapi, clean it, filter, sort by price
+"""
+File: flight_data.py
+Team Name: AirAudit
+Team Members:
+- Menaka Ananda (AndrewID: [ID 1])
+- Chao Huang (AndrewID: chaoh)
+- Rong Guo (AndrewID: [ID 3])
+- Tracy Yang (AndrewID: [ID 4])
+
+
+Description: 
+This backend module handles the data pipeline for our Flight Search application. 
+It retrieves flight data from the SerpApi (Google Flights) endpoint, implements 
+a local caching system to minimize API calls, parses the complex nested JSON responses 
+into structured Pandas DataFrames, and applies custom filters based on user preferences.
+
+Imported by: app.py
+"""
 
 import json
 import os
