@@ -1,0 +1,3712 @@
+{
+  "2026-05-01": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 12:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-02 17:50"
+          },
+          "duration": 800,
+          "airplane": "Boeing 747",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 18",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 737 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-02 20:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-02 21:30"
+          },
+          "duration": 150,
+          "airplane": "Airbus A330",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 863",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 103 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1080,
+      "carbon_emissions": {
+        "this_flight": 841000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 4
+      },
+      "price": 532,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3BMUlRFNGZFdEZPRFl6R2dzSTBKOERFQUlhQTFWVFJEZ2NjTkNmQXc9PSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIklDTiIsbnVsbCwiS0UiLCIxOCJdLFsiSUNOIiwiMjAyNi0wNS0wMiIsIlBFSyIsbnVsbCwiS0UiLCI4NjMiXV1d",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 12:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-02 18:55"
+          },
+          "duration": 930,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 885",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 780 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-02 21:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 01:25"
+          },
+          "duration": 210,
+          "airplane": "Airbus A321neo",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 340",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 148 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 180,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1320,
+      "carbon_emissions": {
+        "this_flight": 929000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 15
+      },
+      "price": 565,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3REV0RnNE5YeERXRE0wTUJvTENLQzVBeEFDR2dOVlUwUTRISENndVFNPSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIkhLRyIsbnVsbCwiQ1giLCI4ODUiXSxbIkhLRyIsIjIwMjYtMDUtMDIiLCJQRUsiLG51bGwsIkNYIiwiMzQwIl1dXQ==",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 23:30"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-03 05:45"
+          },
+          "duration": 915,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 883",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 821 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-03 07:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 10:45"
+          },
+          "duration": 200,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 334",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 167 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 100,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1215,
+      "carbon_emissions": {
+        "this_flight": 989000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 22
+      },
+      "price": 565,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3REV0RnNE0zeERXRE16TkJvTENLQzVBeEFDR2dOVlUwUTRISENndVFNPSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIkhLRyIsbnVsbCwiQ1giLCI4ODMiXSxbIkhLRyIsIjIwMjYtMDUtMDMiLCJQRUsiLG51bGwsIkNYIiwiMzM0Il1dXQ==",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 12:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-02 17:50"
+          },
+          "duration": 800,
+          "airplane": "Boeing 747",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 18",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 737 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-03 08:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 09:40"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 331",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 870,
+          "name": "Incheon International Airport",
+          "id": "ICN",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1810,
+      "carbon_emissions": {
+        "this_flight": 827000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 2
+      },
+      "price": 577,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3BMUlRFNGZFOWFNek14R2dzSTVNSURFQUlhQTFWVFJEZ2NjT1RDQXc9PSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIklDTiIsbnVsbCwiS0UiLCIxOCJdLFsiSUNOIiwiMjAyNi0wNS0wMyIsIlBFSyIsbnVsbCwiT1oiLCIzMzEiXV1d",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 00:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-02 06:45"
+          },
+          "duration": 920,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 881",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 821 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-02 09:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-02 12:25"
+          },
+          "duration": 205,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 390",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 171 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 135,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1260,
+      "carbon_emissions": {
+        "this_flight": 992000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 23
+      },
+      "price": 663,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3REV0RnNE1YeERXRE01TUJvTENPaUZCQkFDR2dOVlUwUTRISERvaFFRPSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIkhLRyIsbnVsbCwiQ1giLCI4ODEiXSxbIkhLRyIsIjIwMjYtMDUtMDIiLCJQRUsiLG51bGwsIkNYIiwiMzkwIl1dXQ==",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 07:15"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-01 08:48"
+          },
+          "duration": 93,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1372",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 58 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-01 10:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-02 15:25"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 888",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 653 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 92,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1030,
+      "carbon_emissions": {
+        "this_flight": 712000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -12
+      },
+      "price": 756,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3hWUVRFek56SjhWVUU0T0RnYUN3alF6Z1FRQWhvRFZWTkVPQnh3ME00RSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIlNGTyIsbnVsbCwiVUEiLCIxMzcyIl0sWyJTRk8iLCIyMDI2LTA1LTAxIiwiUEVLIixudWxsLCJVQSIsIjg4OCJdXV0=",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 23:50"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-03 05:00"
+          },
+          "duration": 790,
+          "airplane": "Airbus A380",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 12",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 714 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-03 08:15"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 09:40"
+          },
+          "duration": 145,
+          "airplane": "Airbus A321neo",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 851",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 92 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 195,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1130,
+      "carbon_emissions": {
+        "this_flight": 807000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 0
+      },
+      "price": 762,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3BMUlRFeWZFdEZPRFV4R2dzSXFOTUVFQUlhQTFWVFJEZ2NjS2pUQkE9PSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIklDTiIsbnVsbCwiS0UiLCIxMiJdLFsiSUNOIiwiMjAyNi0wNS0wMyIsIlBFSyIsbnVsbCwiS0UiLCI4NTEiXV1d",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 00:30"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-02 05:50"
+          },
+          "duration": 860,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 15",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 711 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-02 09:10"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-02 12:35"
+          },
+          "duration": 205,
+          "airplane": "Airbus A330",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 716",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 144 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 200,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1265,
+      "carbon_emissions": {
+        "this_flight": 856000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 6
+      },
+      "price": 811,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3BDVWpFMWZFSlNOekUyR2dzSS9QZ0VFQUlhQTFWVFJEZ2NjUHo0QkE9PSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIlRQRSIsbnVsbCwiQlIiLCIxNSJdLFsiVFBFIiwiMjAyNi0wNS0wMiIsIlBFSyIsbnVsbCwiQlIiLCI3MTYiXV1d",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 23:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-03 05:00"
+          },
+          "duration": 810,
+          "airplane": "Airbus A380",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 203",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 751 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-03 08:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 09:40"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 331",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 200,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1150,
+      "carbon_emissions": {
+        "this_flight": 841000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 4
+      },
+      "price": 852,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3RQV2pJd00zeFBXak16TVJvTENOQ1pCUkFDR2dOVlUwUTRISERRbVFVPSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIklDTiIsbnVsbCwiT1oiLCIyMDMiXSxbIklDTiIsIjIwMjYtMDUtMDMiLCJQRUsiLG51bGwsIk9aIiwiMzMxIl1dXQ==",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 11:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-02 15:05"
+          },
+          "duration": 705,
+          "airplane": "Boeing 787-10",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 39",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 382 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-02 17:15"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-02 20:15"
+          },
+          "duration": 240,
+          "airplane": "Boeing 767",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 963",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 214 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Haneda Airport",
+          "id": "HND"
+        }
+      ],
+      "total_duration": 1075,
+      "carbon_emissions": {
+        "this_flight": 597000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -26
+      },
+      "price": 2156,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ3BWUVRNNWZFNUlPVFl6R2dzSS9wTU5FQUlhQTFWVFJEZ2NjUDZURFE9PSIsW1siTEFYIiwiMjAyNi0wNS0wMSIsIkhORCIsbnVsbCwiVUEiLCIzOSJdLFsiSE5EIiwiMjAyNi0wNS0wMiIsIlBFSyIsbnVsbCwiTkgiLCI5NjMiXV1d",
+      "_date": "2026-05-01"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-01 23:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 05:30"
+          },
+          "duration": 905,
+          "airplane": "Boeing 777",
+          "airline": "Air China",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+          "travel_class": "Economy",
+          "flight_number": "CA 984",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "In-seat power outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 515 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 905,
+      "carbon_emissions": {
+        "this_flight": 515000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -36
+      },
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+      "booking_token": "WyJDalJJU1hOaU1uTXhhbXd5ZHpoQlExTlNTMEZDUnkwdExTMHRMUzB0TFMwdGIzbG9Na0ZCUVVGQlIyNWxPRTEzVFhGUk16SkJFZ1ZEUVRrNE5EZ2MiLFtbIkxBWCIsIjIwMjYtMDUtMDEiLCJQRUsiLG51bGwsIkNBIiwiOTg0Il1dXQ==",
+      "_date": "2026-05-01"
+    }
+  ],
+  "2026-05-02": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 12:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-03 18:55"
+          },
+          "duration": 930,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 885",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 780 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-03 21:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 01:25"
+          },
+          "duration": 210,
+          "airplane": "Airbus A321neo",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 340",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 148 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 180,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1320,
+      "carbon_emissions": {
+        "this_flight": 929000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 15
+      },
+      "price": 565,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3REV0RnNE5YeERXRE0wTUJvTENLQzVBeEFDR2dOVlUwUTRISENndVFNPSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIkhLRyIsbnVsbCwiQ1giLCI4ODUiXSxbIkhLRyIsIjIwMjYtMDUtMDMiLCJQRUsiLG51bGwsIkNYIiwiMzQwIl1dXQ==",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 00:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-03 06:45"
+          },
+          "duration": 920,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 881",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 821 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-03 09:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 12:25"
+          },
+          "duration": 205,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 390",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 171 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 135,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1260,
+      "carbon_emissions": {
+        "this_flight": 992000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 23
+      },
+      "price": 663,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3REV0RnNE1YeERXRE01TUJvTENPaUZCQkFDR2dOVlUwUTRISERvaFFRPSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIkhLRyIsbnVsbCwiQ1giLCI4ODEiXSxbIkhLRyIsIjIwMjYtMDUtMDMiLCJQRUsiLG51bGwsIkNYIiwiMzkwIl1dXQ==",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 23:30"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-04 05:45"
+          },
+          "duration": 915,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 883",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 804 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-04 07:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 10:45"
+          },
+          "duration": 200,
+          "airplane": "Airbus A330",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 334",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 150 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 100,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1215,
+      "carbon_emissions": {
+        "this_flight": 955000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 18
+      },
+      "price": 663,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3REV0RnNE0zeERXRE16TkJvTENPaUZCQkFDR2dOVlUwUTRISERvaFFRPSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIkhLRyIsbnVsbCwiQ1giLCI4ODMiXSxbIkhLRyIsIjIwMjYtMDUtMDQiLCJQRUsiLG51bGwsIkNYIiwiMzM0Il1dXQ==",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 12:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-03 17:50"
+          },
+          "duration": 800,
+          "airplane": "Boeing 747",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 18",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 737 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-03 20:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 21:30"
+          },
+          "duration": 150,
+          "airplane": "Airbus A330",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 863",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 103 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1080,
+      "carbon_emissions": {
+        "this_flight": 841000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 4
+      },
+      "price": 762,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3BMUlRFNGZFdEZPRFl6R2dzSXFOTUVFQUlhQTFWVFJEZ2NjS2pUQkE9PSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIklDTiIsbnVsbCwiS0UiLCIxOCJdLFsiSUNOIiwiMjAyNi0wNS0wMyIsIlBFSyIsbnVsbCwiS0UiLCI4NjMiXV1d",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 23:50"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-04 05:00"
+          },
+          "duration": 790,
+          "airplane": "Airbus A380",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 12",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 714 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-04 08:15"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 09:40"
+          },
+          "duration": 145,
+          "airplane": "Airbus A321neo",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 851",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 92 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 195,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1130,
+      "carbon_emissions": {
+        "this_flight": 807000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 0
+      },
+      "price": 762,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3BMUlRFeWZFdEZPRFV4R2dzSXFOTUVFQUlhQTFWVFJEZ2NjS2pUQkE9PSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIklDTiIsbnVsbCwiS0UiLCIxMiJdLFsiSUNOIiwiMjAyNi0wNS0wNCIsIlBFSyIsbnVsbCwiS0UiLCI4NTEiXV1d",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 01:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-03 05:00"
+          },
+          "duration": 700,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 105",
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 466 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-03 08:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 12:00"
+          },
+          "duration": 245,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 961",
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 183 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 235,
+          "name": "Haneda Airport",
+          "id": "HND"
+        }
+      ],
+      "total_duration": 1180,
+      "carbon_emissions": {
+        "this_flight": 649000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -20
+      },
+      "price": 777,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3RPU0RFd05YeE9TRGsyTVJvTENMN2VCQkFDR2dOVlUwUTRISEMrM2dRPSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIkhORCIsbnVsbCwiTkgiLCIxMDUiXSxbIkhORCIsIjIwMjYtMDUtMDMiLCJQRUsiLG51bGwsIk5IIiwiOTYxIl1dXQ==",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 23:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-04 05:00"
+          },
+          "duration": 810,
+          "airplane": "Airbus A380",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 203",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 751 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-04 08:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 09:40"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 331",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 200,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1150,
+      "carbon_emissions": {
+        "this_flight": 841000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 4
+      },
+      "price": 877,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3RQV2pJd00zeFBXak16TVJvTENKU3RCUkFDR2dOVlUwUTRISENVclFVPSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIklDTiIsbnVsbCwiT1oiLCIyMDMiXSxbIklDTiIsIjIwMjYtMDUtMDQiLCJQRUsiLG51bGwsIk9aIiwiMzMxIl1dXQ==",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 23:05"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 04:40"
+          },
+          "duration": 875,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 771",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 454 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 875,
+      "carbon_emissions": {
+        "this_flight": 455000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -44
+      },
+      "price": 954,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ1ZWUVRjM01Sb0xDUGJvQlJBQ0dnTlZVMFE0SEhEMjZBVT0iLFtbIkxBWCIsIjIwMjYtMDUtMDIiLCJQRUsiLG51bGwsIlVBIiwiNzcxIl1dXQ==",
+      "_date": "2026-05-02"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-02 11:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-03 15:05"
+          },
+          "duration": 705,
+          "airplane": "Boeing 787-10",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 39",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 382 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-03 17:15"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-03 20:15"
+          },
+          "duration": 240,
+          "airplane": "Boeing 767",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 963",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 214 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Haneda Airport",
+          "id": "HND"
+        }
+      ],
+      "total_duration": 1075,
+      "carbon_emissions": {
+        "this_flight": 597000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -26
+      },
+      "price": 1886,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJV1MxeVZIbENjR0YwTkZGQlFTMUVjbmRDUnkwdExTMHRMUzB0TFhaMFoyd3hNVUZCUVVGQlIyNWxPRTAwU0ZaSFNpMUJFZ3BWUVRNNWZFNUlPVFl6R2dzSWhzRUxFQUlhQTFWVFJEZ2NjSWJCQ3c9PSIsW1siTEFYIiwiMjAyNi0wNS0wMiIsIkhORCIsbnVsbCwiVUEiLCIzOSJdLFsiSE5EIiwiMjAyNi0wNS0wMyIsIlBFSyIsbnVsbCwiTkgiLCI5NjMiXV1d",
+      "_date": "2026-05-02"
+    }
+  ],
+  "2026-05-03": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 00:50"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-04 05:55"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 15",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 711 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-04 16:05"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 19:30"
+          },
+          "duration": 205,
+          "airplane": "Airbus A330",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 716",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 144 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 610,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1660,
+      "carbon_emissions": {
+        "this_flight": 856000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 6
+      },
+      "price": 778,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3BDVWpFMWZFSlNOekUyR2dzSTA5OEVFQUlhQTFWVFJEZ2NjTlBmQkE9PSIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIlRQRSIsbnVsbCwiQlIiLCIxNSJdLFsiVFBFIiwiMjAyNi0wNS0wNCIsIlBFSyIsbnVsbCwiQlIiLCI3MTYiXV1d",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 20:10"
+          },
+          "arrival_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-04 19:15"
+          },
+          "duration": 785,
+          "airplane": "Boeing 777",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 10",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 642 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-05 01:40"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 15:35"
+          },
+          "duration": 535,
+          "airplane": "Boeing 777",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 88",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 518 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 385,
+          "name": "Istanbul Airport",
+          "id": "IST"
+        }
+      ],
+      "total_duration": 1705,
+      "carbon_emissions": {
+        "this_flight": 1161000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 44
+      },
+      "price": 805,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ2xVU3pFd2ZGUkxPRGdhQ3dqVzlBUVFBaG9EVlZORU9CeHcxdlFFIixbWyJMQVgiLCIyMDI2LTA1LTAzIiwiSVNUIixudWxsLCJUSyIsIjEwIl0sWyJJU1QiLCIyMDI2LTA1LTA1IiwiUEVLIixudWxsLCJUSyIsIjg4Il1dXQ==",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 00:05"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-04 05:10"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "China Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+          "travel_class": "Economy",
+          "flight_number": "CI 7",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 665 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-04 07:30"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 10:55"
+          },
+          "duration": 205,
+          "airplane": "Airbus A321neo",
+          "airline": "China Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+          "travel_class": "Economy",
+          "flight_number": "CI 511",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 175 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 140,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1190,
+      "carbon_emissions": {
+        "this_flight": 841000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 4
+      },
+      "price": 839,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CI.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ2xEU1RkOFEwazFNVEVhQ3dqc2pnVVFBaG9EVlZORU9CeHc3STRGIixbWyJMQVgiLCIyMDI2LTA1LTAzIiwiVFBFIixudWxsLCJDSSIsIjciXSxbIlRQRSIsIjIwMjYtMDUtMDQiLCJQRUsiLG51bGwsIkNJIiwiNTExIl1dXQ==",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 06:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-03 07:35"
+          },
+          "duration": 95,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2647",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 54 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-03 10:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 15:25"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 888",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 653 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 165,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1105,
+      "carbon_emissions": {
+        "this_flight": 708000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -12
+      },
+      "price": 891,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3hWUVRJMk5EZDhWVUU0T0RnYUN3aU11QVVRQWhvRFZWTkVPQnh3akxnRiIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIlNGTyIsbnVsbCwiVUEiLCIyNjQ3Il0sWyJTRk8iLCIyMDI2LTA1LTAzIiwiUEVLIixudWxsLCJVQSIsIjg4OCJdXV0=",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 23:55"
+          },
+          "arrival_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-05-05 05:30"
+          },
+          "duration": 875,
+          "airplane": "Boeing 777",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Economy",
+          "flight_number": "PR 103",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 664 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Ninoy Aquino International Airport",
+            "id": "MNL",
+            "time": "2026-05-05 06:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 11:55"
+          },
+          "duration": 300,
+          "airplane": "Airbus A330",
+          "airline": "Philippine Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+          "travel_class": "Economy",
+          "flight_number": "PR 358",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 195 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 85,
+          "name": "Ninoy Aquino International Airport",
+          "id": "MNL"
+        }
+      ],
+      "total_duration": 1260,
+      "carbon_emissions": {
+        "this_flight": 860000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 6
+      },
+      "price": 895,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3RRVWpFd00zeFFVak0xT0JvTENPQzZCUkFDR2dOVlUwUTRISERndWdVPSIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIk1OTCIsbnVsbCwiUFIiLCIxMDMiXSxbIk1OTCIsIjIwMjYtMDUtMDUiLCJQRUsiLG51bGwsIlBSIiwiMzU4Il1dXQ==",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 12:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-04 18:55"
+          },
+          "duration": 930,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 885",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 780 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-04 21:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 01:25"
+          },
+          "duration": 210,
+          "airplane": "Airbus A321neo",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 340",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 148 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 180,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1320,
+      "carbon_emissions": {
+        "this_flight": 929000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 15
+      },
+      "price": 908,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3REV0RnNE5YeERXRE0wTUJvTENKekZCUkFDR2dOVlUwUTRISENjeFFVPSIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIkhLRyIsbnVsbCwiQ1giLCI4ODUiXSxbIkhLRyIsIjIwMjYtMDUtMDQiLCJQRUsiLG51bGwsIkNYIiwiMzQwIl1dXQ==",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 23:30"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-05 05:45"
+          },
+          "duration": 915,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 883",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 804 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-05 07:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 10:45"
+          },
+          "duration": 200,
+          "airplane": "Airbus A330",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 334",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 150 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 100,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1215,
+      "carbon_emissions": {
+        "this_flight": 955000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 18
+      },
+      "price": 908,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3REV0RnNE0zeERXRE16TkJvTENKekZCUkFDR2dOVlUwUTRISENjeFFVPSIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIkhLRyIsbnVsbCwiQ1giLCI4ODMiXSxbIkhLRyIsIjIwMjYtMDUtMDUiLCJQRUsiLG51bGwsIkNYIiwiMzM0Il1dXQ==",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 01:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-04 05:00"
+          },
+          "duration": 700,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 105",
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 466 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-04 08:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 12:00"
+          },
+          "duration": 245,
+          "airplane": "Boeing 787",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 961",
+          "legroom": "34 in",
+          "extensions": [
+            "Above average legroom (34 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 183 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 235,
+          "name": "Haneda Airport",
+          "id": "HND"
+        }
+      ],
+      "total_duration": 1180,
+      "carbon_emissions": {
+        "this_flight": 649000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -20
+      },
+      "price": 1082,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3RPU0RFd05YeE9TRGsyTVJvTENPTE1CaEFDR2dOVlUwUTRISERpekFZPSIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIkhORCIsbnVsbCwiTkgiLCIxMDUiXSxbIkhORCIsIjIwMjYtMDUtMDQiLCJQRUsiLG51bGwsIk5IIiwiOTYxIl1dXQ==",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 12:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-04 17:50"
+          },
+          "duration": 800,
+          "airplane": "Boeing 747",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 18",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 737 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-04 20:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 21:30"
+          },
+          "duration": 150,
+          "airplane": "Airbus A321neo",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 863",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 92 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1080,
+      "carbon_emissions": {
+        "this_flight": 830000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 3
+      },
+      "price": 1802,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3BMUlRFNGZFdEZPRFl6R2dzSTZQOEtFQUlhQTFWVFJEZ2NjT2ovQ2c9PSIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIklDTiIsbnVsbCwiS0UiLCIxOCJdLFsiSUNOIiwiMjAyNi0wNS0wNCIsIlBFSyIsbnVsbCwiS0UiLCI4NjMiXV1d",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 11:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-04 15:05"
+          },
+          "duration": 705,
+          "airplane": "Boeing 787-10",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 39",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 382 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-04 17:15"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 20:15"
+          },
+          "duration": 240,
+          "airplane": "Boeing 767",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 963",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 214 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Haneda Airport",
+          "id": "HND"
+        }
+      ],
+      "total_duration": 1075,
+      "carbon_emissions": {
+        "this_flight": 597000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -26
+      },
+      "price": 2156,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ3BWUVRNNWZFNUlPVFl6R2dzSS9wTU5FQUlhQTFWVFJEZ2NjUDZURFE9PSIsW1siTEFYIiwiMjAyNi0wNS0wMyIsIkhORCIsbnVsbCwiVUEiLCIzOSJdLFsiSE5EIiwiMjAyNi0wNS0wNCIsIlBFSyIsbnVsbCwiTkgiLCI5NjMiXV1d",
+      "_date": "2026-05-03"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-03 14:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-04 18:00"
+          },
+          "duration": 760,
+          "airplane": "Boeing 777",
+          "airline": "Air China",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+          "travel_class": "Economy",
+          "flight_number": "CA 988",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "In-seat power outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 515 kg"
+          ]
+        }
+      ],
+      "total_duration": 760,
+      "carbon_emissions": {
+        "this_flight": 515000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -36
+      },
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+      "booking_token": "WyJDalJJWXpOeGJuWTBNbE00T0RCQlFrdG9iSGRDUnkwdExTMHRMUzB0TFMxMmRIUnNPRUZCUVVGQlIyNWxPRTVCUW1sQmNFOUJFZ1ZEUVRrNE9EZ2MiLFtbIkxBWCIsIjIwMjYtMDUtMDMiLCJQRUsiLG51bGwsIkNBIiwiOTg4Il1dXQ==",
+      "_date": "2026-05-03"
+    }
+  ],
+  "2026-05-04": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 13:25"
+          },
+          "arrival_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-05 12:40"
+          },
+          "duration": 795,
+          "airplane": "Boeing 787",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 180",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 507 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-05 15:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 05:15"
+          },
+          "duration": 530,
+          "airplane": "Boeing 787",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 196",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 406 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 165,
+          "name": "Istanbul Airport",
+          "id": "IST"
+        }
+      ],
+      "total_duration": 1490,
+      "carbon_emissions": {
+        "this_flight": 913000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 13
+      },
+      "price": 805,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3RVU3pFNE1IeFVTekU1TmhvTENOYjBCQkFDR2dOVlUwUTRISERXOUFRPSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIklTVCIsbnVsbCwiVEsiLCIxODAiXSxbIklTVCIsIjIwMjYtMDUtMDUiLCJQRUsiLG51bGwsIlRLIiwiMTk2Il1dXQ==",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 12:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-05 18:55"
+          },
+          "duration": 930,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 885",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 780 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-05 21:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 01:25"
+          },
+          "duration": 210,
+          "airplane": "Airbus A321neo",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 340",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 148 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 180,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1320,
+      "carbon_emissions": {
+        "this_flight": 929000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 15
+      },
+      "price": 848,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3REV0RnNE5YeERXRE0wTUJvTENLeVdCUkFDR2dOVlUwUTRISENzbGdVPSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIkhLRyIsbnVsbCwiQ1giLCI4ODUiXSxbIkhLRyIsIjIwMjYtMDUtMDUiLCJQRUsiLG51bGwsIkNYIiwiMzQwIl1dXQ==",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 23:30"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 05:45"
+          },
+          "duration": 915,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 883",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 821 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 09:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 12:25"
+          },
+          "duration": 205,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 390",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 171 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 195,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1315,
+      "carbon_emissions": {
+        "this_flight": 992000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 23
+      },
+      "price": 848,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3REV0RnNE0zeERXRE01TUJvTENLeVdCUkFDR2dOVlUwUTRISENzbGdVPSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIkhLRyIsbnVsbCwiQ1giLCI4ODMiXSxbIkhLRyIsIjIwMjYtMDUtMDYiLCJQRUsiLG51bGwsIkNYIiwiMzkwIl1dXQ==",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 23:50"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-06 05:00"
+          },
+          "duration": 790,
+          "airplane": "Airbus A380",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 12",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 714 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Gimpo International Airport",
+            "id": "GMP",
+            "time": "2026-05-06 09:05"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 10:25"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 2051",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 94 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 245,
+          "name": "Gimpo International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1175,
+      "carbon_emissions": {
+        "this_flight": 809000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 0
+      },
+      "price": 882,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3RMUlRFeWZFdEZNakExTVJvTENOYXdCUkFDR2dOVlUwUTRISERXc0FVPSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIklDTiIsbnVsbCwiS0UiLCIxMiJdLFsiR01QIiwiMjAyNi0wNS0wNiIsIlBFSyIsbnVsbCwiS0UiLCIyMDUxIl1dXQ==",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 00:50"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-05 05:55"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 15",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 711 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-05 09:10"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 12:35"
+          },
+          "duration": 205,
+          "airplane": "Airbus A330",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 716",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 144 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 195,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1245,
+      "carbon_emissions": {
+        "this_flight": 856000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 6
+      },
+      "price": 888,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3BDVWpFMWZFSlNOekUyR2dzSWtMVUZFQUlhQTFWVFJEZ2NjSkMxQlE9PSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIlRQRSIsbnVsbCwiQlIiLCIxNSJdLFsiVFBFIiwiMjAyNi0wNS0wNSIsIlBFSyIsbnVsbCwiQlIiLCI3MTYiXV1d",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 06:00"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-04 07:35"
+          },
+          "duration": 95,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2647",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 54 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-04 10:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 15:25"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 888",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 653 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 165,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1105,
+      "carbon_emissions": {
+        "this_flight": 708000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -12
+      },
+      "price": 941,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3hWUVRJMk5EZDhWVUU0T0RnYUN3aVUzd1VRQWhvRFZWTkVPQnh3bE44RiIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIlNGTyIsbnVsbCwiVUEiLCIyNjQ3Il0sWyJTRk8iLCIyMDI2LTA1LTA0IiwiUEVLIixudWxsLCJVQSIsIjg4OCJdXV0=",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 23:30"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 05:45"
+          },
+          "duration": 915,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 883",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 821 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 07:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 10:45"
+          },
+          "duration": 200,
+          "airplane": "Airbus A330",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 334",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 151 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 100,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1215,
+      "carbon_emissions": {
+        "this_flight": 973000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 20
+      },
+      "price": 1020,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3REV0RnNE0zeERXRE16TkJvTENOeWNCaEFDR2dOVlUwUTRISERjbkFZPSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIkhLRyIsbnVsbCwiQ1giLCI4ODMiXSxbIkhLRyIsIjIwMjYtMDUtMDYiLCJQRUsiLG51bGwsIkNYIiwiMzM0Il1dXQ==",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 07:15"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-04 08:48"
+          },
+          "duration": 93,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1372",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 58 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-05-04 10:20"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 15:25"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 888",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 653 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 92,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1030,
+      "carbon_emissions": {
+        "this_flight": 712000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -12
+      },
+      "price": 1379,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3hWUVRFek56SjhWVUU0T0RnYUN3aXN0UWdRQWhvRFZWTkVPQnh3ckxVSSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIlNGTyIsbnVsbCwiVUEiLCIxMzcyIl0sWyJTRk8iLCIyMDI2LTA1LTA0IiwiUEVLIixudWxsLCJVQSIsIjg4OCJdXV0=",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 11:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-05 15:05"
+          },
+          "duration": 705,
+          "airplane": "Boeing 787-10",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Premium Economy",
+          "flight_number": "UA 39",
+          "extensions": [
+            "Extra reclining seat",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 573 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-05 17:15"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-05 20:15"
+          },
+          "duration": 240,
+          "airplane": "Boeing 767",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 963",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 214 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Haneda Airport",
+          "id": "HND"
+        }
+      ],
+      "total_duration": 1075,
+      "carbon_emissions": {
+        "this_flight": 788000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -2
+      },
+      "price": 2374,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ3BWUVRNNWZFNUlPVFl6R2dzSXByNE9FQUlhQTFWVFJEZ2NjS2ErRGc9PSIsW1siTEFYIiwiMjAyNi0wNS0wNCIsIkhORCIsbnVsbCwiVUEiLCIzOSJdLFsiSE5EIiwiMjAyNi0wNS0wNSIsIlBFSyIsbnVsbCwiTkgiLCI5NjMiXV1d",
+      "_date": "2026-05-04"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-04 23:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 05:30"
+          },
+          "duration": 905,
+          "airplane": "Boeing 777",
+          "airline": "Air China",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+          "travel_class": "Economy",
+          "flight_number": "CA 984",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "In-seat power outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 515 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 905,
+      "carbon_emissions": {
+        "this_flight": 515000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -36
+      },
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+      "booking_token": "WyJDalJJVDJKSk5FbE1WWFJ0UlRSQlFrNU1SbEZDUnkwdExTMHRMUzB0TFhaMFltb3hNa0ZCUVVGQlIyNWxPRTVGU1ZkWlFYbEJFZ1ZEUVRrNE5EZ2MiLFtbIkxBWCIsIjIwMjYtMDUtMDQiLCJQRUsiLG51bGwsIkNBIiwiOTg0Il1dXQ==",
+      "_date": "2026-05-04"
+    }
+  ],
+  "2026-05-05": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 12:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 18:55"
+          },
+          "duration": 930,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 885",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 780 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-07 07:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-07 10:45"
+          },
+          "duration": 200,
+          "airplane": "Airbus A330",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 334",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 151 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 750,
+          "name": "Hong Kong International Airport",
+          "id": "HKG",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1880,
+      "carbon_emissions": {
+        "this_flight": 932000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 15
+      },
+      "price": 696,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3REV0RnNE5YeERXRE16TkJvTENNeWZCQkFDR2dOVlUwUTRISERNbndRPSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIkhLRyIsbnVsbCwiQ1giLCI4ODUiXSxbIkhLRyIsIjIwMjYtMDUtMDciLCJQRUsiLG51bGwsIkNYIiwiMzM0Il1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 23:50"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-07 05:00"
+          },
+          "duration": 790,
+          "airplane": "Airbus A380",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 12",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 714 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Gimpo International Airport",
+            "id": "GMP",
+            "time": "2026-05-07 15:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-07 16:10"
+          },
+          "duration": 130,
+          "airplane": "Airbus A321",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Economy",
+          "flight_number": "OZ 3355",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 122 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 600,
+          "name": "Gimpo International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1520,
+      "carbon_emissions": {
+        "this_flight": 837000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 4
+      },
+      "price": 752,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3RMUlRFeWZFOWFNek0xTlJvTENJN0xCQkFDR2dOVlUwUTRISENPeXdRPSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIklDTiIsbnVsbCwiS0UiLCIxMiJdLFsiR01QIiwiMjAyNi0wNS0wNyIsIlBFSyIsbnVsbCwiT1oiLCIzMzU1Il1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 13:25"
+          },
+          "arrival_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-06 12:40"
+          },
+          "duration": 795,
+          "airplane": "Boeing 787",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 180",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 507 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-06 16:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-07 05:50"
+          },
+          "duration": 530,
+          "airplane": "Boeing 787",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 196",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 406 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 200,
+          "name": "Istanbul Airport",
+          "id": "IST"
+        }
+      ],
+      "total_duration": 1525,
+      "carbon_emissions": {
+        "this_flight": 913000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 13
+      },
+      "price": 805,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3RVU3pFNE1IeFVTekU1TmhvTENOYjBCQkFDR2dOVlUwUTRISERXOUFRPSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIklTVCIsbnVsbCwiVEsiLCIxODAiXSxbIklTVCIsIjIwMjYtMDUtMDYiLCJQRUsiLG51bGwsIlRLIiwiMTk2Il1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 20:10"
+          },
+          "arrival_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-06 19:15"
+          },
+          "duration": 785,
+          "airplane": "Boeing 777",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 10",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 642 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Istanbul Airport",
+            "id": "IST",
+            "time": "2026-05-07 01:40"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-07 15:35"
+          },
+          "duration": 535,
+          "airplane": "Boeing 777",
+          "airline": "Turkish Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+          "travel_class": "Economy",
+          "flight_number": "TK 88",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 518 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 385,
+          "name": "Istanbul Airport",
+          "id": "IST"
+        }
+      ],
+      "total_duration": 1705,
+      "carbon_emissions": {
+        "this_flight": 1161000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 44
+      },
+      "price": 805,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ2xVU3pFd2ZGUkxPRGdhQ3dqVzlBUVFBaG9EVlZORU9CeHcxdlFFIixbWyJMQVgiLCIyMDI2LTA1LTA1IiwiSVNUIixudWxsLCJUSyIsIjEwIl0sWyJJU1QiLCIyMDI2LTA1LTA3IiwiUEVLIixudWxsLCJUSyIsIjg4Il1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 00:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 06:45"
+          },
+          "duration": 920,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 881",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 821 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 09:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 12:25"
+          },
+          "duration": 205,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 390",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 171 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 135,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1260,
+      "carbon_emissions": {
+        "this_flight": 992000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 23
+      },
+      "price": 848,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3REV0RnNE1YeERXRE01TUJvTENLeVdCUkFDR2dOVlUwUTRISENzbGdVPSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIkhLRyIsbnVsbCwiQ1giLCI4ODEiXSxbIkhLRyIsIjIwMjYtMDUtMDYiLCJQRUsiLG51bGwsIkNYIiwiMzkwIl1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 12:25"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 18:55"
+          },
+          "duration": 930,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 885",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 780 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-06 21:55"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-07 01:25"
+          },
+          "duration": 210,
+          "airplane": "Airbus A321neo",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 340",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 148 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 180,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1320,
+      "carbon_emissions": {
+        "this_flight": 929000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 15
+      },
+      "price": 848,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3REV0RnNE5YeERXRE0wTUJvTENLeVdCUkFDR2dOVlUwUTRISENzbGdVPSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIkhLRyIsbnVsbCwiQ1giLCI4ODUiXSxbIkhLRyIsIjIwMjYtMDUtMDYiLCJQRUsiLG51bGwsIkNYIiwiMzQwIl1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 23:30"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-07 05:45"
+          },
+          "duration": 915,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 883",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 804 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-05-07 07:25"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-07 10:45"
+          },
+          "duration": 200,
+          "airplane": "Airbus A330",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 334",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 151 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 100,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1215,
+      "carbon_emissions": {
+        "this_flight": 956000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 18
+      },
+      "price": 848,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3REV0RnNE0zeERXRE16TkJvTENLeVdCUkFDR2dOVlUwUTRISENzbGdVPSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIkhLRyIsbnVsbCwiQ1giLCI4ODMiXSxbIkhLRyIsIjIwMjYtMDUtMDciLCJQRUsiLG51bGwsIkNYIiwiMzM0Il1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 00:50"
+          },
+          "arrival_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-06 05:55"
+          },
+          "duration": 845,
+          "airplane": "Boeing 777",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 15",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 711 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Taiwan Taoyuan International Airport",
+            "id": "TPE",
+            "time": "2026-05-06 15:05"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 18:35"
+          },
+          "duration": 210,
+          "airplane": "Airbus A330",
+          "airline": "EVA Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+          "travel_class": "Economy",
+          "flight_number": "BR 716",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 144 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 550,
+          "name": "Taiwan Taoyuan International Airport",
+          "id": "TPE"
+        }
+      ],
+      "total_duration": 1605,
+      "carbon_emissions": {
+        "this_flight": 856000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 6
+      },
+      "price": 852,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BR.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3BDVWpFMWZFSlNOekUyR2dzSXM1a0ZFQUlhQTFWVFJEZ2NjTE9aQlE9PSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIlRQRSIsbnVsbCwiQlIiLCIxNSJdLFsiVFBFIiwiMjAyNi0wNS0wNiIsIlBFSyIsbnVsbCwiQlIiLCI3MTYiXV1d",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 23:05"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-07 04:40"
+          },
+          "duration": 875,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 771",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 454 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 875,
+      "carbon_emissions": {
+        "this_flight": 455000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -44
+      },
+      "price": 934,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ1ZWUVRjM01Sb0xDS2JaQlJBQ0dnTlZVMFE0SEhDbTJRVT0iLFtbIkxBWCIsIjIwMjYtMDUtMDUiLCJQRUsiLG51bGwsIlVBIiwiNzcxIl1dXQ==",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 12:30"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-06 17:50"
+          },
+          "duration": 800,
+          "airplane": "Boeing 747",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 18",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 737 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-05-06 20:00"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 21:30"
+          },
+          "duration": 150,
+          "airplane": "Airbus A321neo",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 863",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 92 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1080,
+      "carbon_emissions": {
+        "this_flight": 830000,
+        "typical_for_this_route": 808000,
+        "difference_percent": 3
+      },
+      "price": 1802,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3BMUlRFNGZFdEZPRFl6R2dzSTZQOEtFQUlhQTFWVFJEZ2NjT2ovQ2c9PSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIklDTiIsbnVsbCwiS0UiLCIxOCJdLFsiSUNOIiwiMjAyNi0wNS0wNiIsIlBFSyIsbnVsbCwiS0UiLCI4NjMiXV1d",
+      "_date": "2026-05-05"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-05-05 11:20"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-06 15:05"
+          },
+          "duration": 705,
+          "airplane": "Boeing 787-10",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 39",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 382 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-05-06 17:15"
+          },
+          "arrival_airport": {
+            "name": "Beijing Capital International Airport",
+            "id": "PEK",
+            "time": "2026-05-06 20:15"
+          },
+          "duration": 240,
+          "airplane": "Boeing 767",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 963",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 214 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 130,
+          "name": "Haneda Airport",
+          "id": "HND"
+        }
+      ],
+      "total_duration": 1075,
+      "carbon_emissions": {
+        "this_flight": 597000,
+        "typical_for_this_route": 808000,
+        "difference_percent": -26
+      },
+      "price": 2086,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJV21oVFpIUnZhV3B3Ym1OQlEySTBVRUZDUnkwdExTMHRMUzB0TFMxdmVXeGtPRUZCUVVGQlIyNWxPRTVOUm10NFNWVkJFZ3BWUVRNNWZFNUlPVFl6R2dzSXB0ME1FQUlhQTFWVFJEZ2NjS2JkREE9PSIsW1siTEFYIiwiMjAyNi0wNS0wNSIsIkhORCIsbnVsbCwiVUEiLCIzOSJdLFsiSE5EIiwiMjAyNi0wNS0wNiIsIlBFSyIsbnVsbCwiTkgiLCI5NjMiXV1d",
+      "_date": "2026-05-05"
+    }
+  ]
+}
