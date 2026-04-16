@@ -20,6 +20,7 @@ run with: streamlit run app.py
 import pandas as pd
 import streamlit as st
 import flight_data
+import web_scraper
 
 # Set up the basic configuration of the web page
 st.set_page_config(page_title="Flight Search", page_icon="✈️", layout="wide")
@@ -78,7 +79,17 @@ def main():
         st.error("No API key found! Put your key in serpapi_key.txt.")
         st.stop()
 
-    # sidebar inputs for the search
+    if "all_results" not in st.session_state:
+        st.session_state.all_results = None
+    if "dep" not in st.session_state:
+        st.session_state.dep = ""
+    if "arr" not in st.session_state:
+        st.session_state.arr = ""
+    if "start_str" not in st.session_state:
+        st.session_state.start_str = ""
+    if "end_str" not in st.session_state:
+        st.session_state.end_str = ""
+
     with st.sidebar:
         st.header("Search")
         dep = st.text_input("From (IATA)", value="PIT", max_chars=3).upper().strip()
@@ -112,56 +123,61 @@ def main():
 
         search_btn = st.button("Search", type="primary", use_container_width=True)
 
-    # Convert dates to string format required by the backend API
     start_str = pd.Timestamp(start_date).strftime("%Y-%m-%d")
     end_str = pd.Timestamp(end_date).strftime("%Y-%m-%d")
 
-    if not search_btn:
+    if search_btn:
+        if len(dep) != 3 or len(arr) != 3:
+            st.warning("Please use 3-letter IATA airport codes (e.g. PIT, LAX)")
+            return
+
+        filters = build_filters(max_stops, max_price, dur_h, dur_m, no_overnight)
+
+        with st.spinner("Fetching flight data..."):
+            try:
+                all_results = flight_data.search_all(
+                    dep, arr, start_str, end_str,
+                    filters=filters if filters else None,
+                    use_cache=use_cache,
+                )
+            except ValueError as e:
+                st.error(str(e))
+                return
+            except Exception as e:
+                st.error(f"Something went wrong: {e}")
+                return
+
+        st.session_state.all_results = all_results
+        st.session_state.dep = dep
+        st.session_state.arr = arr
+        st.session_state.start_str = start_str
+        st.session_state.end_str = end_str
+
+    if st.session_state.all_results is None:
         st.info("Fill in the sidebar and click Search.")
         return
 
-    if len(dep) != 3 or len(arr) != 3:
-        st.warning("Please use 3-letter IATA airport codes (e.g. PIT, LAX)")
-        return
-
-    filters = build_filters(max_stops, max_price, dur_h, dur_m, no_overnight)
-
-    with st.spinner("Fetching flight data..."):
-        try:
-            all_results = flight_data.search_all(
-                dep, arr, start_str, end_str,
-                filters=filters if filters else None,
-                use_cache=use_cache,
-            )
-        except ValueError as e:
-            st.error(str(e))
-            return
-        except Exception as e:
-            st.error(f"Something went wrong: {e}")
-            return
+    all_results = st.session_state.all_results
+    dep = st.session_state.dep
+    arr = st.session_state.arr
+    start_str = st.session_state.start_str
+    end_str = st.session_state.end_str
 
     if all_results.empty:
         st.warning("No flights found. Try different dates or relax the filters.")
         return
 
-    # show results
-    show = all_results.head(top_n)
-
-    # add readable duration column
-    show = show.copy()
+    show = all_results.head(top_n).copy()
     show["total_duration_hm"] = format_duration(show["total_duration_min"])
 
-    # pick columns that exist
     display_cols = [c for c in SHOW_COLS if c in show.columns]
     display_df = show[display_cols].copy()
 
-    # format date and price for display
     if "date" in display_df.columns:
         display_df["date"] = display_df["date"].dt.strftime("%Y-%m-%d")
     if "price_usd" in display_df.columns:
         display_df["price_usd"] = display_df["price_usd"].apply(lambda x: f"${x:,.0f}" if pd.notna(x) else "")
 
-    # summary stats
     prices = all_results["price_usd"]
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Cheapest", f"${prices.min():,.0f}")
@@ -172,15 +188,68 @@ def main():
     st.subheader("Results (cheapest first)")
     st.dataframe(display_df, use_container_width=True, hide_index=False)
 
-    # csv download
     csv_df = show.copy()
     if "date" in csv_df.columns:
         csv_df["date"] = csv_df["date"].dt.strftime("%Y-%m-%d")
     csv_bytes = csv_df.to_csv(index=False).encode("utf-8-sig")
-    st.download_button("Download CSV", data=csv_bytes,
-                       file_name=f"{dep}_{arr}_{start_str}_{end_str}.csv",
-                       mime="text/csv")
+    st.download_button(
+        "Download CSV",
+        data=csv_bytes,
+        file_name=f"{dep}_{arr}_{start_str}_{end_str}.csv",
+        mime="text/csv"
+    )
 
+    st.divider()
+    st.subheader("City Snapshot:")
+
+    if st.button("Get Destination Info", key="destination_info_btn"):
+        with st.spinner("Scraping data..."):
+            info = web_scraper.scrape_destination_info(arr)
+
+        st.markdown(
+            f"<p style='font-size:22px; font-weight:700; margin-bottom:0.2rem;'>City: {info['city']}</p>",
+            unsafe_allow_html=True
+        )
+
+        st.markdown(
+            "<p style='font-size:20px; font-weight:700; margin-bottom:0.2rem;'>Top Attractions:</p>",
+            unsafe_allow_html=True
+        )
+        if info["top_attractions"]:
+            for i, item in enumerate(info["top_attractions"], start=1):
+                st.markdown(f"{i}. {item}")
+        else:
+            st.write("No attractions found.")
+
+        st.markdown(
+            "<p style='font-size:20px; font-weight:700; margin-bottom:0.2rem;'>Cost of Living:</p>",
+            unsafe_allow_html=True
+        )
+        if info["cost_of_living"]:
+            for k, v in info["cost_of_living"].items():
+                st.write(f"**{k}:** {v}")
+        else:
+            st.write("No cost-of-living data found.")
+
+        st.markdown(
+            "<p style='font-size:20px; font-weight:700; margin-bottom:0.2rem;'>14-Day Weather Forecast:</p>",
+            unsafe_allow_html=True
+        )
+        if info["weather"]:
+            weather_df = pd.DataFrame(info["weather"])
+            st.dataframe(weather_df, use_container_width=True, hide_index=True)
+        else:
+            st.write("No weather data found.")
+
+        st.markdown(
+            "<p style='font-size:20px; font-weight:700; margin-bottom:0.2rem;'>Cuisine:</p>",
+            unsafe_allow_html=True
+        )
+        if info["cuisine"]:
+            for i, item in enumerate(info["cuisine"], start=1):
+                st.markdown(f"{i}. {item}")
+        else:
+            st.write("No cuisine data found.")
 
 
 if __name__ == "__main__":
