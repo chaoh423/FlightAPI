@@ -290,3 +290,6 @@ if __name__ == "__main__":
 
     chart_route_comparison(all_routes)
     print("\nAll charts saved to: " + OUTPUT_DIR)
+git add analysis_module.py
+git commit -m "Add analysis module"
+git push
