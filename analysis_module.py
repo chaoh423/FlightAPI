@@ -2,10 +2,10 @@
 File: analysis_module.py
 Team Name: AirAudit
 Team Members:
-- Menaka Ananda (AndrewID: [ID 1])
+- Menaka Ananda (AndrewID: mgowdaan)
 - Chao Huang (AndrewID: chaoh)
-- Rong Guo (AndrewID: [ID 3])
-- Tracy Yang (AndrewID: [ID 4])
+- Rong Guo (AndrewID: rongguo)
+- Tracy Yang (AndrewID: tracyy)
 
 Description:
 This module handles data analysis and visualization for the AirAudit project.

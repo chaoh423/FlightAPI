@@ -2,10 +2,10 @@
 File: web_scraper.py
 Team Name: AirAudit
 Team Members:
-- Menaka Ananda (AndrewID: [ID 1])
+- Menaka Ananda (AndrewID: mgowdaan)
 - Chao Huang (AndrewID: chaoh)
-- Rong Guo (AndrewID: [ID 3])
-- Tracy Yang (AndrewID: [ID 4])
+- Rong Guo (AndrewID: rongguo)
+- Tracy Yang (AndrewID: tracyy)
 
 Description: 
 This module performs web scraping to gather destination insights. It extracts 
