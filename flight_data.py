@@ -19,20 +19,29 @@ Imported by: app.py
 
 import json
 import os
+import re
 from datetime import datetime, timedelta
 
 import pandas as pd
-import serpapi
+from serpapi import GoogleSearch
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 KEY_FILE = os.path.join(SCRIPT_DIR, "serpapi_key.txt")
 CACHE_DIR = os.path.join(SCRIPT_DIR, "cache")
 
-API_KEY = ""
-if os.path.isfile(KEY_FILE):
-    with open(KEY_FILE, "r") as f:
-        API_KEY = f.read().strip()
+def get_api_key():
+    """Reads the API key from serpapi_key.txt and handles potential RTF formatting."""
+    if os.path.isfile(KEY_FILE):
+        with open(KEY_FILE, "r") as f:
+            content = f.read()
+            # If the file was saved as an RTF on Mac, extract only the hex key
+            if "rtf1" in content:
+                match = re.search(r'[a-f0-9]{64}', content)
+                return match.group(0) if match else ""
+            return content.strip()
+    return ""
 
+API_KEY = get_api_key()
 
 # cache
 # cache is one json per route, like cache/PIT_LAX.json
@@ -44,7 +53,10 @@ def load_cache(dep, arr):
         return {}
     # if the file exists, load the data from the file
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return {}
 
 
 def save_cache(dep, arr, by_date):
@@ -60,27 +72,33 @@ def save_cache(dep, arr, by_date):
 def fetch_one_day(dep, arr, date):
     if not API_KEY:
         raise ValueError("No API key found! Put your key in serpapi_key.txt.")
-    # try to fetch the data from the api
+    
+    # Use GoogleSearch instead of Client to avoid attribute errors
+    params = {
+        "engine": "google_flights",
+        "departure_id": dep,
+        "arrival_id": arr,
+        "outbound_date": date,
+        "type": "2",
+        "currency": "USD",
+        "hl": "en",
+        "api_key": API_KEY
+    }
+
     try:
-        client = serpapi.Client(api_key=API_KEY)
-        results = client.search({
-            "engine": "google_flights",
-            "departure_id": dep,
-            "arrival_id": arr,
-            "outbound_date": date,
-            "type": "2",
-            "currency": "USD",
-            "hl": "en",
-            "sort_by": "2",
-        })
-        # print the results to see what we get
-        # print(json.dumps(dict(results), indent=2, ensure_ascii=False))
+        # This is the standard, reliable way to call the API
+        search = GoogleSearch(params)
+        results = search.get_dict()
+        
+        if "error" in results:
+            print(f"SerpApi Error for {date}: {results['error']}")
+            return []
+            
     except Exception as e:
-        print(f"API error for {date}: {e}")
+        print(f"Connection error for {date}: {e}")
         return []
 
     flights = []
-    # google flights return two best_flights and other_flights sections
     for section in ["best_flights", "other_flights"]:
         if section in results:
             for flight in results[section]:
@@ -152,25 +170,17 @@ def parse_flights(raw_flights):
             airline_str = " + ".join(airline_names)
 
             # get flight numbers
-            nums = []
-            for leg in legs:
-                nums.append(leg["flight_number"])
+            nums = [str(leg["flight_number"]) for leg in legs]
             flight_num_str = " / ".join(nums)
 
             # get layover info
             layovers = item.get("layovers", [])
-            lay_airports = []
-            has_overnight = False
-            for lay in layovers:
-                lay_airports.append(lay.get("id", ""))
-                if lay.get("overnight", False):
-                    has_overnight = True
+            lay_airports = [lay.get("id", "") for lay in layovers]
+            has_overnight = any(lay.get("overnight", False) for lay in layovers)
             lay_str = " -> ".join(lay_airports) if lay_airports else "None"
 
             # carbon emissions
-            carbon = None
-            if "carbon_emissions" in item:
-                carbon = item["carbon_emissions"].get("this_flight")
+            carbon = item.get("carbon_emissions", {}).get("this_flight")
 
             row = {
                 "date": item["_date"],
