@@ -6,7 +6,6 @@ Team Members:
 - Chao Huang (AndrewID: chaoh)
 - Rong Guo (AndrewID: rongguo)
 - Tracy Yang (AndrewID: tracyy)
-
 Description: 
 Enhanced GUI for AirAudit. Features professional CSS injection, 
 real-time data filtering, and high-fidelity visualization tabs.
@@ -257,12 +256,20 @@ def main():
         stops    = st.selectbox("Flight Layovers", ["Any", "Non-stop", "1 Stop", "2+ Stops"])
         stop_map = {"Any": None, "Non-stop": 0, "1 Stop": 1, "2+ Stops": 2}
 
+        st.markdown("### 🗄️ Data Source")
+        use_cache = st.radio(
+            "Flight data source",
+            options=["Use cached data (fast)", "Fetch live data (uses API quota)"],
+            index=0,
+            help="Cached data reuses previously downloaded flights. Live fetch calls SerpApi and counts against your monthly quota."
+        ) == "Use cached data (fast)"
+
         if st.button("CALCULATE TOTAL TRIP COST", type="primary", use_container_width=True):
             with st.spinner("Analyzing destination markers..."):
                 st.session_state.audit_data = {
                     'flights':  flight_data.search_all(
                         dep_iata, arr_iata, str(start), str(end),
-                        filters={"max_stops": stop_map[stops]}, use_cache=True
+                        filters={"max_stops": stop_map[stops]}, use_cache=use_cache
                     ),
                     'dest':     web_scraper.scrape_destination_info(arr_iata),
                     'days':     (end - start).days if (end - start).days > 0 else 1,
@@ -286,8 +293,8 @@ def main():
         grand_total   = st.session_state.sel_price + total_land
 
         cost_source = costs.get('source', 'estimated')
-        badge       = '' if cost_source in ('scraped', 'teleport') else '<span class="est-badge">est.</span>'
-        source_note = {'scraped': '(live · Numbeo)', 'teleport': '(live · Teleport)', 'estimated': '(estimated)'}[cost_source]
+        badge       = '' if cost_source == 'scraped' else '<span class="est-badge">est.</span>'
+        source_note = {'scraped': '(live · Numbeo)', 'estimated': '(estimated)'}.get(cost_source, '(estimated)')
 
         # ── Flight selection nudge (only shown before a flight is picked) ───
         if st.session_state.sel_price == 0.0:
