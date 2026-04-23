@@ -76,35 +76,6 @@ WEATHER_PAGE_MAP = {
     "Busan":         ("south-korea", "busan"),
 }
 
-# Teleport API city slugs (free, no API key, JSON)
-TELEPORT_SLUGS = {
-    "Los Angeles":   "los-angeles",
-    "San Diego":     "san-diego",
-    "Pittsburgh":    "pittsburgh",
-    "Chicago":       "chicago",
-    "New York":      "new-york",
-    "Miami":         "miami",
-    "Seattle":       "seattle",
-    "Denver":        "denver",
-    "Atlanta":       "atlanta",
-    "Boston":        "boston",
-    "Las Vegas":     "las-vegas",
-    "San Francisco": "san-francisco",
-    "Houston":       "houston",
-    "Phoenix":       "phoenix",
-    "New Orleans":   None,
-    "Tokyo":         "tokyo",
-    "London":        "london",
-    "Paris":         "paris",
-    "Sydney":        "sydney",
-    "Bangkok":       "bangkok",
-    "Singapore":     "singapore",
-    "Beijing":       "beijing",
-    "Shanghai":      "shanghai",
-    "Nanjing":       None,
-    "Busan":         "busan",
-}
-
 # Per-city realistic fallback costs (used if ALL live sources fail)
 CITY_COST_FALLBACKS = {
     "Los Angeles":   {"daily_living": 85.0,  "nightly_hotel": 160.0},
@@ -493,48 +464,20 @@ def scrape_wikivoyage_cuisine(city):
 
 
 # ---------------------------------------------------------------------------
-# COST OF LIVING — Teleport API primary, Numbeo HTML secondary, static fallback
+# COST OF LIVING — Numbeo HTML scraping, falls back to per-city static estimates
 # ---------------------------------------------------------------------------
 
 def scrape_numbeo_cost_of_living(city):
     """
     Priority order:
-    1. Teleport API (free JSON, no key required)
-    2. Numbeo HTML scraping
-    3. Per-city static estimates
+    1. Numbeo HTML scraping
+    2. Per-city static estimates
     Returns dict: {daily_living, nightly_hotel, source}
     """
     fallback = CITY_COST_FALLBACKS.get(city, CITY_COST_FALLBACKS["_default"]).copy()
     fallback["source"] = "estimated"
 
-    # --- 1. Try Teleport API ---
-    slug = TELEPORT_SLUGS.get(city)
-    if slug:
-        try:
-            r = requests.get(
-                f"https://api.teleport.org/api/urban_areas/slug:{slug}/scores/",
-                timeout=10,
-                headers={"Accept": "application/json"},
-            )
-            if r.status_code == 200:
-                categories = r.json().get("categories", [])
-                for cat in categories:
-                    if "cost" in cat.get("name", "").lower():
-                        score = cat.get("score_out_of_10")
-                        if score is not None:
-                            # score 10 = very cheap, 0 = very expensive
-                            # scale: 0→2.0x baseline, 5→1.25x, 10→0.5x
-                            scale = 2.0 - (score / 10.0) * 1.5
-                            base = CITY_COST_FALLBACKS.get(city, CITY_COST_FALLBACKS["_default"])
-                            return {
-                                "daily_living": round(base["daily_living"] * scale, 1),
-                                "nightly_hotel": round(base["nightly_hotel"] * scale, 1),
-                                "source": "teleport",
-                            }
-        except Exception:
-            pass
-
-    # --- 2. Try Numbeo HTML ---
+    # --- 1. Try Numbeo HTML ---
     city_slug = city.replace(" ", "-")
     html = get_html(f"https://www.numbeo.com/cost-of-living/in/{city_slug}")
     if html:
@@ -569,9 +512,13 @@ def scrape_numbeo_cost_of_living(city):
             result["source"] = "scraped"
             return result
 
-    # --- 3. Static fallback ---
+    # --- 2. Static fallback ---
     return fallback
 
+
+# ---------------------------------------------------------------------------
+# WEATHER — timeanddate.com HTML scraping (working well, unchanged)
+# ---------------------------------------------------------------------------
 
 def scrape_timeanddate_weather(city):
     if city not in WEATHER_PAGE_MAP:
