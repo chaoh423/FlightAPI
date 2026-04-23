@@ -119,3 +119,4 @@ Flight data is cached locally to avoid burning through API calls. Cached files a
 - **Wikivoyage / timeanddate.com** may occasionally be slow or return no data — the app falls back to curated static lists for all 25 cities so it never shows a blank page
 - **Numbeo** actively blocks scrapers; the Teleport API is used as the primary cost source, with Numbeo as backup and static estimates as final fallback
 - **SerpApi free tier** is limited to 100 searches/month — use caching to conserve calls
+- **Keyword extraction depends on source formatting** — relies on bolded/italicized text, so results are limited by what the source emphasizes. Most pages emphasized key words such as dish names/ restaurants so we scraped the specially formatted texts. 
